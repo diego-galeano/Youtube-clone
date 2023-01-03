@@ -13,6 +13,7 @@
 		92E2AD542964AEE100F4736C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E2AD522964AEE100F4736C /* Main.storyboard */; };
 		92E2AD562964AEE400F4736C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E2AD552964AEE400F4736C /* Assets.xcassets */; };
 		92E2AD592964AEE400F4736C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E2AD572964AEE400F4736C /* LaunchScreen.storyboard */; };
+		92E2AD632964D75A00F4736C /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2AD622964D75A00F4736C /* PlayListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		92E2AD552964AEE400F4736C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92E2AD582964AEE400F4736C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92E2AD5A2964AEE400F4736C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E2AD622964D75A00F4736C /* PlayListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		92E2AD4B2964AEE100F4736C /* YouTube Clone */ = {
 			isa = PBXGroup;
 			children = (
+				92E2AD612964D73800F4736C /* Model */,
 				92E2AD4C2964AEE100F4736C /* AppDelegate.swift */,
 				92E2AD4E2964AEE100F4736C /* SceneDelegate.swift */,
 				92E2AD502964AEE100F4736C /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				92E2AD5A2964AEE400F4736C /* Info.plist */,
 			);
 			path = "YouTube Clone";
+			sourceTree = "<group>";
+		};
+		92E2AD612964D73800F4736C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92E2AD622964D75A00F4736C /* PlayListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E2AD512964AEE100F4736C /* ViewController.swift in Sources */,
+				92E2AD632964D75A00F4736C /* PlayListModel.swift in Sources */,
 				92E2AD4D2964AEE100F4736C /* AppDelegate.swift in Sources */,
 				92E2AD4F2964AEE100F4736C /* SceneDelegate.swift in Sources */,
 			);
